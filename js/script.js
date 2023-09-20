@@ -7,7 +7,11 @@ let S = date.getSeconds()
 
 
 setInterval(()=>{
-    sw.innerHTML=S+=1; 
+    S+=1
+    if(S>60){
+        S=0
+    }
+    sw.innerHTML=S; 
   },1000)
 
 // console.log(setS);
