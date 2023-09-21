@@ -2,6 +2,7 @@ const seconds=document.querySelector('#S')
 const mSeconds=document.querySelector('#MS')
 const start =document.querySelector('#start')
 const stop =document.querySelector('#stop')
+const reset=document.querySelector('#reset')
 let timer;
 
 let S =0
@@ -49,6 +50,12 @@ stop.addEventListener('click',()=>{
    clearInterval(timer)
 })
 
+reset.addEventListener('click',()=>{
+    seconds.innerHTML='00:'
+    mSeconds.innerHTML='00'
+    S=0
+    MS=0
+ })
         
  
     
