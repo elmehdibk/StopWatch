@@ -30,10 +30,10 @@ setInterval(()=>{
                 
             },1000)
             if(S>=10){
-                seconds.innerHTML=S
+                seconds.innerHTML=S+':'
             }
             if(S<10){
-                seconds.innerHTML='0'+S
+                seconds.innerHTML='0'+S+':'
             }
           
     }
