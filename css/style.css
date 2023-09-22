@@ -1,6 +1,53 @@
 #S{
     display: inline;
+    color:white;
+    font-size:100px;
+    
+    
 }
 #MS{
     display: inline;
+    color:white;
+    font-size:100px;
 }
+
+.timer{
+    text-align: center;
+}
+#start{
+    background-color:#404258;
+    color:white;
+}
+#stop{
+    background-color:#50577A;
+    color:white;
+}
+#reset{
+    background-color:#9DB2BF;
+    color:white;
+}
+.buttons{
+    display: block;
+    text-align: center;
+}
+
+.content{
+    /* padding-top:300px; */
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:200px;
+    background-color:#282A3A;
+
+    
+}
+
+.title{
+        text-align: center;
+        font-size:300%;
+        font-family:helvetica;
+        color:#B4A5A5;
+        margin-top: 13px;
+
+}
+
+
